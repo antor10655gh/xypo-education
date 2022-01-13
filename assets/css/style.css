@@ -1,0 +1,158 @@
+/* common style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+:root {
+    --main-color: #f67c92;
+}
+
+main {}
+
+.side-menu {
+    position: fixed;
+    left: 10px;
+    top: 250px;
+}
+
+.media-icon {
+    margin-bottom: 15px;
+}
+
+.media-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.background {
+    height: 100vh;
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position-x: 180px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* nav-bar section */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-left img {
+    width: 80px;
+    height: 60px;
+}
+
+.nav-right {
+    position: relative;
+}
+
+.menubar-logo img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.menubar-list {
+    background-color: rgba(0, 0, 0, 0.274);
+    position: absolute;
+    top: 300px;
+    right: -120px;
+    width: 300px;
+    visibility: hidden;
+    transition: .5s linear;
+}
+
+.nav-right:hover .menubar-list {
+    visibility: visible;
+    top: 50px;
+}
+
+.menubar-list ul {
+    padding: 10px 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.menubar-list ul li {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menubar-list ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.menubar-list ul li a:hover {
+    color: var(--main-color);
+}
+
+/* hero section */
+
+.hero-main {
+    margin-top: 100px;
+
+}
+
+.hero-content {
+    width: 400px;
+}
+
+.hero-content h1 {
+    line-height: 30px;
+}
+
+.design {
+    margin-top: 100px;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    margin-top: 15px;
+    background-color: var(--main-color);
+}
+
+.low-line {
+    width: 80px;
+    height: 2px;
+    margin-top: 10px;
+    background-color: var(--main-color);
+}
+
+.high-line {
+    width: 110px;
+    height: 2px;
+    margin-top: 10px;
+    background-color: var(--main-color);
+}
+
+.hero-content p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.hero-content a {
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #000;
+    border: 2px solid var(--main-color);
+    transition: .5s;
+}
+
+.hero-content a:hover {
+    color: #fff;
+    background-color: var(--main-color);
+}
