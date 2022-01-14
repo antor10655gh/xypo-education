@@ -13,6 +13,12 @@
 
 main {}
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
 .side-menu {
     position: fixed;
     left: 10px;
@@ -28,6 +34,7 @@ main {}
     height: 20px;
 }
 
+/* all secction background design */
 .background {
     height: 100vh;
     background-size: 1200px;
@@ -35,16 +42,16 @@ main {}
     background-position-x: 180px;
 }
 
-.about-background {
+.offer-background {
     height: 100vh;
     width: 100%;
 }
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-bottom: 100px;
+.offer-background {
+    height: 100vh;
+    width: 100%;
 }
+
 
 /* nav-bar section */
 .nav-bar {
@@ -210,6 +217,7 @@ main {}
     float: right;
 }
 
+
 /* course section */
 .course {
     display: flex;
@@ -251,4 +259,62 @@ main {}
 .course-right img {
     width: 80%;
     float: right;
+}
+
+/* offer section */
+.offer {
+    padding: 100px 0;
+}
+
+.offer-content {
+    width: 400px;
+    float: right;
+    text-align: right;
+    position: relative;
+}
+
+.offer-content p {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: var(--p-color);
+}
+
+.offer-content h4 {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.offer-squre {
+    position: absolute;
+    right: 0;
+    top: 55px;
+}
+
+.offer-design {
+    position: absolute;
+    right: 0;
+    top: 250px;
+}
+
+.offer-design .square {
+    position: absolute;
+    right: 0;
+    top: -25px;
+}
+
+.offer-design .low-line {
+    float: right;
+}
+
+.offer-content a {
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #000;
+    border: 2px solid var(--main-color);
+    transition: .5s;
+}
+
+.offer-content a:hover {
+    color: #fff;
+    background-color: var(--main-color);
 }
