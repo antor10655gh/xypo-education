@@ -42,7 +42,7 @@ main {}
     background-position-x: 180px;
 }
 
-.offer-background {
+.about-background {
     height: 100vh;
     width: 100%;
 }
@@ -217,7 +217,6 @@ main {}
     float: right;
 }
 
-
 /* course section */
 .course {
     display: flex;
@@ -261,6 +260,8 @@ main {}
     float: right;
 }
 
+
+
 /* offer section */
 .offer {
     padding: 100px 0;
@@ -275,7 +276,7 @@ main {}
 
 .offer-content p {
     margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     color: var(--p-color);
 }
 
@@ -317,4 +318,47 @@ main {}
 .offer-content a:hover {
     color: #fff;
     background-color: var(--main-color);
+}
+
+/* contact section */
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.contact h1 {
+    line-height: 30px;
+}
+
+.contact p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: var(--p-color);
+}
+
+.contact a {
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #000;
+    border: 2px solid var(--main-color);
+    transition: .5s;
+}
+
+.contact a:hover {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.contact-left {
+    flex: 1;
+}
+
+.contact-right {
+    flex: 2;
+}
+
+.contact-right img {
+    width: 80%;
+    float: right;
 }
