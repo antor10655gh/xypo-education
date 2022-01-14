@@ -208,3 +208,46 @@ main {}
 .about-design .low-line {
     float: right;
 }
+
+/* course section */
+.course {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.course h1 {
+    line-height: 30px;
+}
+
+.course p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: var(--p-color);
+}
+
+.course a {
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #000;
+    border: 2px solid var(--main-color);
+    transition: .5s;
+}
+
+.course a:hover {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.course-left {
+    flex: 1;
+}
+
+.course-right {
+    flex: 2;
+}
+
+.course-right img {
+    width: 80%;
+    float: right;
+}
