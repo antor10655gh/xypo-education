@@ -425,7 +425,7 @@ input:focus {
 
 .footer-language a {
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 50px;
     color: #000;
     border: 2px solid var(--main-color);
     transition: .5s;
@@ -548,12 +548,22 @@ input:focus {
 
     .footer-language {
         flex-direction: row;
-        top: -124px;
-        right: 55px;
+        top: -85px;
+        right: 84px;
+        gap: 10px;
     }
 
     .footer-language a {
         padding: 5px 10px;
+    }
+
+    .footer-language img {
+        width: 50%;
+    }
+
+    .footer-link {
+        margin-right: 20px;
+        margin-top: 22px;
     }
 
 }
