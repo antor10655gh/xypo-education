@@ -10,7 +10,9 @@
     --main-color: #f67c92;
 }
 
-main {}
+main {
+    height: 1500px;
+}
 
 .side-menu {
     position: fixed;
@@ -53,7 +55,8 @@ main {}
 }
 
 .nav-right {
-    position: relative;
+    position: fixed;
+    right: 150px;
 }
 
 .menubar-logo img {
@@ -103,7 +106,6 @@ main {}
 
 .hero-main {
     margin-top: 100px;
-
 }
 
 .hero-content {
