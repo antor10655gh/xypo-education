@@ -417,7 +417,7 @@ input:focus {
 .footer-language {
     position: absolute;
     right: 0px;
-    top: -100px;
+    top: -90px;
     display: flex;
     flex-direction: column;
     gap: 24px;
